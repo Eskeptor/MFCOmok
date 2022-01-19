@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Omok">
+      <UniqueIdentifier>{4fa43e1b-429e-494d-a0e3-25e65edca919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{2ef1ea3f-bd03-4902-aea1-67f40d10e29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\Main">
+      <UniqueIdentifier>{0d3cb607-9b30-4e40-b7d9-2188dae2bbae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{cd177e6d-9e0f-4c12-bdc0-901655025f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{77139908-be9e-4b36-a885-86cac981a7d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XColorStatic">
+      <UniqueIdentifier>{71ea4cfd-ceec-4780-8fec-59218b37e807}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OmokDlg.h">
+      <Filter>Dialog\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Omok.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="OmokCtrl.h">
+      <Filter>Omok</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVar.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="XColorStatic\XColorStatic.h">
+      <Filter>XColorStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="XColorStatic\XHyperLink.h">
+      <Filter>XColorStatic</Filter>
+    </ClInclude>
+    <ClInclude Include="XColorStatic\FontSize.h">
+      <Filter>XColorStatic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OmokDlg.cpp">
+      <Filter>Dialog\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Omok.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="OmokCtrl.cpp">
+      <Filter>Omok</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVar.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="XColorStatic\XColorStatic.cpp">
+      <Filter>XColorStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="XColorStatic\XHyperLink.cpp">
+      <Filter>XColorStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="XColorStatic\FontSize.cpp">
+      <Filter>XColorStatic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Omok.ico">
+      <Filter>Base</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Omok.rc">
+      <Filter>Base</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Omok.rc2">
+      <Filter>Base</Filter>
+    </None>
+  </ItemGroup>
+</Project>
