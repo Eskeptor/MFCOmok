@@ -1,0 +1,2 @@
+# MFCOmok
+MFC(C++) Omok
